@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Appointment | Aura Studio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-with-navbar">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="auralogo.jpeg" height="45" alt="Aura Studio">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="package.html">Packages</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="booking-hero">
+  <div class="hero-overlay"></div>
+  <div class="container text-center">
+    <h1>Book Your Session</h1>
+    <p>Start your journey to smooth, confident skin</p>
+  </div>
+</section>
+
+<!-- ================= BOOKING SECTION ================= -->
+<section class="booking-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+  
+          <div class="booking-form">
+            <h2>Book Appointment</h2>
+  
+            <form>
+              <input type="text" placeholder="Full Name" required>
+              <input type="tel" placeholder="Phone Number" required>
+  
+              <select required>
+                <option value="">Select Treatment</option>
+                <optgroup label="Face & Neck"> 
+                <option>Chin-KSH 1,000</option>
+                <option>Upper Lip-KSH 1,000</option>
+                <option>Half face-KSH 3,000</option>
+                <option>Full Face-KSH 3,500</option>
+                </optgroup>
+
+                <optgroup label="Upper Body"> 
+                <option>Under Arms- KSH 2,000</option>
+                <option>Full Arms - KSH 5,000</option>
+                <option>Half Arms -KSH 3,000</option>
+                <option>Chest/Breasts- KSH 2,500</option>
+                <option>Stomach - KSH 3,500</option>
+                <option>Full Back -KSH 6,000</option>
+                </optgroup>
+
+                <optgroup label="Lower Body"> 
+                <option>Full Legs - KSH 8,000</option>
+                <option>Half Legs - KSH 4,000</option>
+                <option>Bikini sides -KSH 3,000</option>
+                <option>Brazilian/full Bikini-KSH 5,000</option>
+                </optgroup>
+              </select>
+  
+              <input type="date" required>
+              <input type="time" required>
+  
+              <button type="submit">Confirm Booking</button>
+            </form>
+  
+            <div class="booking-links">
+              <a href="index.html">← Back to Home</a>
+              <a href="package.html">Package Deals →</a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <p>© 2026 Aura Studio. All Rights Reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
